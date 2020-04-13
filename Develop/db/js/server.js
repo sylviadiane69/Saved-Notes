@@ -4,7 +4,7 @@ const fs = require("fs");
 
 //Sets up the Express App
 const app = express();
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 8080;
 let data = JSON.parse(fs.readFileSync("./json/db.json", "utf8"));
 
 // Sets up the Express app to handle data parsing
